@@ -1,11 +1,11 @@
 let height = 6;
-let width = 5;
+let width = 7;
 
 let row = 0;
 let col =0;
 
 let gameOver = false;
-let word = "SQUID";
+let word = "LOVEYOU";
 
 window.onload = function(){
     initialize();

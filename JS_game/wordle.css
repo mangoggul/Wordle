@@ -25,8 +25,8 @@ hr {
 .tile {
     /* box */
     border: 2px solid lightgrey;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 50px;
     margin: 2.5px;
 
     /* text */
@@ -42,16 +42,19 @@ hr {
     background-color: #619978;
     color: white;
     border-color: white;
+    transition: all 0.4s;
 }
 
 .present {
     background-color: #C9B458;
     color: white;
     border-color: white;
+    transition: all 0.4s;
 }
 
 .absent {
     background-color: #8d8f91;
     color: white;
-    border-color: white
+    border-color: white;
+    transition: all 0.4s;
 }
